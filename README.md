@@ -10,8 +10,7 @@ http://www.fileformat.info/info/unicode/char/a.htm
 
 
 Here is a short example that I found on stackoverflow:
+http://stackoverflow.com/questions/1207457/convert-a-unicode-string-to-a-string-in-python-containing-extra-symbols/1207836
 
-title = u"Klüft skräms inför på fédéral électoral große"
-import unicodedata
-unicodedata.normalize('NFKD', title).encode('ascii','ignore')
-'Kluft skrams infor pa federal electoral groe'
+Thanks,
+Mark
